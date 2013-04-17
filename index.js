@@ -1,10 +1,10 @@
 var css = require('css');
 var classes = require('classes');
 
-module.exports = Tagcloud;
+module.exports = tagcloud;
 
 //json object with the tags , minimum and maximum font size
-function Tagcloud(tags, minPercent, maxPercent){
+function tagcloud(tags, minPercent, maxPercent){
   var sortedTags = sortObjByValue(tags);
   var tagArray = convertToArray(tags);
   var minPercent = minPercent || 80;
