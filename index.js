@@ -9,7 +9,6 @@ function tagcloud(tags, minPercent, maxPercent){
   var tagArray = convertToArray(tags);
   var minPercent = minPercent || 80;
   var maxPercent = maxPercent || 280;
-  if(minPercent > maxPercent) swap(minPercent, maxPercent);
   var min = sortedTags[0].value.weight;
   var max = sortedTags.slice(-1)[0].value.weight;
   var steps = sortedTags.length - 1;
@@ -71,11 +70,4 @@ function distanceFromStart(lower,value){
 function mapCalculation(step1,step2,distance){
   var mapDistance = (step2 * distance)/step1;
   return mapDistance;
-}
-
-//var1 takes var2 value and the other way around
-function swap(a, b){
-  var temp = a;
-  a = b;
-  b = temp;
 }
