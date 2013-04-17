@@ -52,7 +52,7 @@ function convertToArray(obj){
   for(var key in obj){
     array.push({tag : key,  value : obj[key]})
   }
-   return array;
+  return array;
 }
 
 //calculate the step needed to go to max from min in n steps
@@ -60,11 +60,13 @@ function calculateStep(min,max,steps){
   var step = (max - min)/steps; 
   return step; 
 }
+
 //calculate values distance from lower
 function distanceFromStart(lower,value){
   var distance = value - lower;
-  return distance 
+  return distance;
 }
+
 //calculate a value based on the step values we already have calculated
 function mapCalculation(step1,step2,distance){
   var mapDistance = (step2 * distance)/step1;
