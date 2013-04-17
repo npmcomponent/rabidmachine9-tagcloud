@@ -27,8 +27,7 @@ function tagcloud(tags, minPercent, maxPercent){
     var size =  minPercent + mapCalculation(originalStep, percentStep,distance);
 
     css(link, {
-      fontSize:size+"%",
-      margin: "1px"
+      fontSize:size+"%"
     }) 
 
     li.appendChild(link);
