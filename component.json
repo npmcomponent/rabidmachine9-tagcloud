@@ -1,0 +1,18 @@
+{
+  "name": "tagcloud",
+  "repo": "rabidmachine9/tagcloud",
+  "description": "just a tag cloud",
+  "version": "0.0.1",
+  "keywords": ["tagcloud","tags","tag-cloud","tag"],
+  "dependencies": {
+    "component/css": "*",
+    "component/classes": "*"
+  },
+  "development": {},
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "tagcloud.css"
+  ]
+}

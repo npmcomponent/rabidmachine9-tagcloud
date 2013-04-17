@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tagcloud</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="build/build.css">
+    <script src="build/build.js"></script>
+  </head>
+  <body>
+    <script>
+      var tagcloud = require('tagcloud');
+      var tags = {
+        'lorem': {'weight':'23','link':'#'}
+      , 'ipsum': {'weight':'123','link':'#'}
+      , 'dolor': {'weight':'64','link':'#'}
+      , 'sit':   {'weight':'9','link':'#'}
+      , 'amet':  {'weight':'53','link':'#'}
+      , 'consectetuer': {'weight':'73','link':'#'}
+      , 'adipiscing': {'weight':'34','link':'#'}
+      , 'elit': {'weight':'12','link':'#'}
+      , 'sed': {'weight':'92','link':'#'}
+      , 'ullamcorper': {'weight':'7','link':'#'}
+      , 'arcu': {'weight':'47','link':'#'}
+      , 'lacinia':{'weight': '90','link':'#'}
+      , 'lacus':{'weight':'32','link':'#'}
+      , 'aliquam':{'weight':'21','link':'#'}
+      , 'tristique':{'weight':'12','link':'#'}
+      , 'adipiscing':{'weight':'45','link':'#'}
+      , 'pede': {'weight':'56','link':'#'}
+      , 'proin':{'weight':'10','link':'#'}
+      , 'porta':{'weight':'67','link':'#'}
+      };
+      var foo = tagcloud(tags);
+      document.body.appendChild(foo);
+    </script>
+  </body>
+</html>
