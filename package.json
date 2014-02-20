@@ -1,0 +1,18 @@
+{
+  "name": "rabidmachine9-tagcloud",
+  "description": "just a tag cloud",
+  "version": "0.0.1",
+  "keywords": [
+    "tagcloud",
+    "tags",
+    "tag-cloud",
+    "tag"
+  ],
+  "styles": [
+    "tagcloud.css"
+  ],
+  "dependencies": {
+    "component-css": "git://github.com/npmcomponent/component-css.git",
+    "component-classes": "git://github.com/npmcomponent/component-classes.git"
+  }
+}

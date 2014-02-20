@@ -1,5 +1,5 @@
-var css = require('css');
-var classes = require('classes');
+var css = require('component-css');
+var classes = require('component-classes');
 
 module.exports = tagcloud;
 
